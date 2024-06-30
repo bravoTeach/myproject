@@ -1,0 +1,8 @@
+version: '3.9'
+
+services:
+  web:
+    image: "talalali4321/myproject:latest"
+    ports:
+      - "8000:8000"
+    command: npm start

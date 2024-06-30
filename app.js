@@ -8,7 +8,7 @@ function generateToken() {
 }
 let activeUsers = [];
 
-const port = process.env.PORT || 8080
+const port = process.env.PORT || 8000
 
 // const db = mysql.createConnection({
 //     host: 'attenadnce-nano.cpka19y9rvyn.ap-south-1.rds.amazonaws.com',
